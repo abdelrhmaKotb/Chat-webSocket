@@ -1,0 +1,125 @@
+body {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 14px;
+    position: relative;
+    background: url("../images/bg.jpeg") no-repeat;
+    align-items: center;
+    background-size: cover;
+}
+h1 , h2 {
+
+    font-size: xx-large;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+form {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid slategrey;
+    box-shadow: 0 0 40px rgb(65, 22, 22);
+    padding: 50px 35px;
+}
+
+img {
+    background-image: url("../images/bg.jpeg");
+    background-size: contain;
+    opacity: 1;
+    padding: 1px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type=text] {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+
+
+}
+
+input[type=text]:hover {
+
+    border-color: blue;
+
+}
+
+input[type=password]:hover {
+
+    border-color: blue;
+}
+
+input {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+
+}
+
+label{
+    width: 100%;
+    text-align: left;
+
+    font-size: larger;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30%;
+
+}
+
+
+input[type=submit] {
+
+    background-color: greenyellow;
+    margin: 10px;
+    border: none;
+    margin-bottom: 20%;
+    border-radius: 4px;
+    width: 365px;
+    margin-left: 20px;
+    box-shadow: 0 0 40px seagreen;
+    cursor: pointer;
+    height : 45px;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+    transition: 2s;
+
+}
